@@ -2,7 +2,7 @@
   "name": "mit",
   "version": "1.0.0",
   "description": "Music Version Control System",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,14 @@
   },
   "author": "Justin Kang",
   "license": "ISC",
+  "keywords": [
+    "cli"
+  ],
   "bugs": {
     "url": "https://github.com/jtn26/MusitHub/issues"
   },
-  "homepage": "https://github.com/jtn26/MusitHub#readme"
+  "homepage": "https://github.com/jtn26/MusitHub#readme",
+  "bin": {  
+    "mycli": "./bin/index.js"  
+  }
 }
